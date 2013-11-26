@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="assets/css/gol.css" />
+    </head>
+    <body>
+        <div id="canvasContainer">
+            <canvas id="mainCanvas" width="1000" height="500"></canvas>
+        </div>
+        <div id="leftMenu">
+            <canvas id="miniMap" width="250" height="200"></canvas>
+            <button id="startStopBtn">Start</button>
+            <button id="stepBtn">Single Step</button> 
+            <button id="clearBtn">Clear Grid</button> 
+            <button id="randomBtn">Randomize</button> 
+        </div>
+        <script src="assets/js/gol.js"></script>
+        <script>
+            new GOL(500,250,'mainCanvas');
+        </script>
+    </body>
+</html>

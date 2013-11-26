@@ -1,0 +1,28 @@
+body{
+    overflow: hidden;
+    margin: 0;
+}
+
+#leftMenu{
+    width: 250px;
+    margin: 0;
+}
+
+#canvasContainer{
+    width: 85%;
+    height: 100%;
+    
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+}
+
+#mainCanvas{
+    width: 100%;
+    height: 100%;
+    background-color: #AAA;
+}
+
+#miniMap{
+    background-color: #AAA;
+}
